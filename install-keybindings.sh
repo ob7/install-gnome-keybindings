@@ -11,6 +11,9 @@ gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Shift><Su
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Primary><Shift><Super>k']"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Primary><Shift><Super>j']"
 
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-left "['<Super><Shift>a']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-monitor-right "['<Super><Shift>d']"
+
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Super>1']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Super>2']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Super>3']"
