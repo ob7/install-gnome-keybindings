@@ -35,7 +35,9 @@ gsettings set org.gnome.desktop.wm.keybindings switch-applications "['<Alt>Tab']
 gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "['<Alt><Shift>Tab']"
 
 
+gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
 gsettings set org.gnome.desktop.wm.preferences num-workspaces "9"
+gsettings set org.gnome.desktop.wm.preferences resize-with-right-button "true"
 
 
 gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"
