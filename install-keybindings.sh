@@ -46,6 +46,8 @@ gsettings set org.gnome.desktop.wm.preferences resize-with-right-button "true"
 gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"
 gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>Right']"
 
+gsettings set org.gnome.settings-daemon.plugins.media-keys video-out "''"
+
 #Custom Keybindings
 gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']"
 #Launch Terminal
